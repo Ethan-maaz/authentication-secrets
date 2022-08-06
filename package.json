@@ -4,12 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
-    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "16.15.1"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
@@ -22,7 +23,6 @@
     "mongoose": "^6.5.0",
     "mongoose-encryption": "^2.1.2",
     "mongoose-findorcreate": "^3.0.0",
-    "node": "^18.7.0",
     "nodemon": "^2.0.19",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
